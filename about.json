@@ -9,7 +9,9 @@
       "tertiary": "29A0B1",
       "highlight": "CFE0EA",
       "header_background": "ffffff",
-      "header_primary": "111111"
+      "header_primary": "111111",
+      "background_gradient_left": "b4ced6",
+      "background_gradient_right": "ffe5db"
     },
     "sublime-dark": {
       "primary": "f2f2f2",
@@ -17,7 +19,9 @@
       "tertiary": "29A0B1",
       "highlight": "CFE0EA",
       "header_background": "111111",
-      "header_primary": "dddddd"
+      "header_primary": "dddddd",
+      "background_gradient_left": "28313b",
+      "background_gradient_right": "485461"
     }
   },
   "components": [

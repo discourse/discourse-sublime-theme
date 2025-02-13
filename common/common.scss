@@ -45,3 +45,7 @@ input[type="color"]:focus,
   box-shadow: none;
   outline: none;
 }
+
+.nav-pills > li a.active::after {
+  display: none;
+}

@@ -7,6 +7,7 @@ body.has-sidebar-page {
   #main-outlet-wrapper {
     padding-left: 8px;
   }
+
   #main-outlet {
     max-width: unset;
   }
@@ -14,7 +15,6 @@ body.has-sidebar-page {
   .sidebar-wrapper {
     height: auto;
     max-height: calc(98vh - var(--header-offset, 0));
-
     margin: 30px 0 50px;
     background-color: var(--secondary);
     border-radius: var(--sublime-border-radius);
@@ -31,6 +31,7 @@ body.has-sidebar-page {
         &.active {
           color: var(--tertiary);
           background: none;
+
           .sidebar-section-link-prefix.icon {
             color: var(--tertiary);
           }
@@ -49,7 +50,7 @@ body.has-sidebar-page {
 }
 
 // Gradient Background
-#main-outlet-wrapper:after {
+#main-outlet-wrapper::after {
   content: "";
   display: block;
   position: fixed;
@@ -66,9 +67,11 @@ body.has-sidebar-page {
 .custom-search-banner-wrap .search-menu {
   .search-input {
     border-radius: 0.25em;
+
     input[type="text"] {
       border: 1px solid transparent;
       border-radius: var(--sublime-border-radius);
+
       &:focus {
         outline: 3px solid rgba(var(--primary-rgb), 0.35);
       }
@@ -91,19 +94,23 @@ body #main-outlet {
   border-radius: var(--sublime-border-radius);
   padding: 3em 3em 5%;
   max-width: 1150px;
-  .archetype-regular & {
-    min-height: 500px;
-  }
+  padding-bottom: 5% !important; // overriding inline style
+
   @media screen and (max-width: 700px) {
     padding: 1.5em;
     margin-top: 0;
   }
-  padding-bottom: 5% !important; // overriding inline style
+
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
+
   @media screen and (max-width: 1075px) {
     width: 85%;
+  }
+
+  .archetype-regular & {
+    min-height: 500px;
   }
 }
 
@@ -117,6 +124,7 @@ body #main-outlet {
 .nav-pills li a {
   border: 1px solid transparent;
   border-radius: var(--sublime-border-radius);
+
   &:hover {
     border-radius: var(--sublime-border-radius);
     transition: all 0.3s linear;
@@ -124,6 +132,7 @@ body #main-outlet {
     color: var(--tertiary);
     border: 1px dashed var(--tertiary);
   }
+
   &.active {
     border-radius: var(--sublime-border-radius);
     transition: all 0.3s linear;
@@ -140,6 +149,7 @@ body #main-outlet {
   grid-gap: 1.5em;
   grid-template-columns: 32% 32% 32%;
   border-radius: var(--sublime-border-radius);
+
   .category-box {
     width: 100%;
     margin: 0;
@@ -148,18 +158,22 @@ body #main-outlet {
     border-top: 2px solid;
     background: var(--category-box-bg);
     border-radius: var(--sublime-border-radius);
-    box-shadow: 0px 3px 6px 0px rgba(2, 47, 57, 0.14);
+    box-shadow: 0 3px 6px 0 rgba(2, 47, 57, 0.14);
+
     .category-box-inner {
       border: none;
       padding: 0;
+
       .category-details {
         padding: 0.8em 1em 0.2em 1em;
       }
     }
+
     &:hover {
       box-shadow: var(--category-hover-shadow);
     }
   }
+
   .description {
     padding-top: 10px;
     color: var(--category-box-font-color);

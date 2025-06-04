@@ -1,11 +1,11 @@
 $light-bg-gradient:
-  linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 16%),
+  linear-gradient(180deg, #fff 0%, rgb(255, 255, 255, 0) 16%),
   linear-gradient(90deg, #f1f1f1 0%, #b4ced6 28%, #ffe5db 100%);
 $dark-bg-gradient:
-  linear-gradient(180deg, #000 0%, rgba(20, 24, 28, 0) 16%),
+  linear-gradient(180deg, #000 0%, rgb(20, 24, 28, 0) 16%),
   linear-gradient(90deg, #000 0%, #28313b 28%, #485461 100%);
-$category-hover-shadow-light: 0px 10px 30px 0px rgba(2, 47, 57, 0.1);
-$category-hover-shadow-dark: 0px -1px 40px 0px rgba(134, 134, 134, 0.213);
+$category-hover-shadow-light: 0px 10px 30px 0px rgb(2, 47, 57, 0.1);
+$category-hover-shadow-dark: 0px -1px 40px 0px rgb(134, 134, 134, 0.213);
 
 :root {
   --sublime-border-radius: 4px;

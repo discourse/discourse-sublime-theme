@@ -1,5 +1,6 @@
 {
   "name": "🌸 Sublime Theme",
+  "authors": "Discourse",
   "about_url": "https://meta.discourse.org/t/discourse-sublime-theme/242048",
   "license_url": "https://github.com/discourse/discourse-sublime-theme/blob/main/LICENSE",
   "color_schemes": {
@@ -20,8 +21,5 @@
       "header_primary": "dddddd"
     }
   },
-  "components": [
-    "https://github.com/discourse/discourse-search-banner.git"
-  ],
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+  "screenshots": ["screenshots/dark.png", "screenshots/light.png"]
 }

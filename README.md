@@ -1,12 +1,12 @@
-# :cherry_blossom: Sublime Theme
+# :cherry_blossom: Sublime theme
 
 A sublime theme for Discourse.
 
-### Features
+## Features
 
 A simple and sublime theme for Discourse that is designed from scratch to integrate well with the sidebar.
 
-### Light Mode
+### Light mode
 
 **Categories page:**
 
@@ -16,37 +16,46 @@ A simple and sublime theme for Discourse that is designed from scratch to integr
 
 ![latest page light mode](screenshots/light.webp)
 
-### Dark Mode
+### Dark mode
 
 **Categories page:**
 
 ![categories page dark mode](images/categories-page-dark.webp)
 
-
 **Latest page:**
 
 ![latest page dark mode](screenshots/dark.webp)
 
---- 
+---
 
-### Tips
+## Theme configuration
 
-### Discourse settings
+Change the following settings for this theme to render properly.
 
-Following setting changes are required for this theme to render properly:
+### Edit Theme
 
-* Enable the `enable experimental sidebar hamburger` setting
-* Select **Boxes with Subcategories** option for `desktop category page style`
-* Select **sublime-dark** as `default dark mode color scheme id`
+Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to edit Sublime theme.
+
+- in **Dark color palette** dropdown select `sublime-dark`
+
+  ![theme dark color palette](/images/theme-dark-color-palette.png)
+
+### Interface & layout
+
+Go to **Admin > Interface & layout** (`/admin/config/interface`) page.
+
+- in **Desktop category page style** dropdown select `Boxes with Subcategories`
+
+  ![desktop category page style](images/desktop-category-page-style.png)
 
 ### Welcome banner
 
-On the page **Admin > Welcome banner** (`/admin/config/welcome-banner`), change the following settings for this theme to render properly:
+Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
 
-* in **Enabled on themes...** dropdown select `Sublime Theme`
+- in **Enabled on themes...** dropdown select `Sublime Theme`
 
-   ![welcome banner themes](images/welcome-banner-enable.webp)
+  ![welcome banner themes](images/welcome-banner-enable.webp)
 
-* **Location** should be set to `Below site header`
+- **Location** should be set to `Below site header`
 
-   ![welcome banner settings](images/welcome-banner-location-setting.png)
+  ![welcome banner settings](images/welcome-banner-location-setting.png)

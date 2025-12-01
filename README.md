@@ -38,7 +38,7 @@ Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to
 
 - in **Dark color palette** dropdown select `sublime-dark`
 
-  ![theme dark color palette](/images/theme-dark-color-palette.png)
+  ![theme dark color palette](/images/theme-dark-color-palette.webp)
 
 ### Interface & layout
 
@@ -46,7 +46,7 @@ Go to **Admin > Interface & layout** (`/admin/config/interface`) page.
 
 - in **Desktop category page style** dropdown select `Boxes with Subcategories`
 
-  ![desktop category page style](images/desktop-category-page-style.png)
+  ![desktop category page style](images/desktop-category-page-style.webp)
 
 ### Welcome banner
 
@@ -58,4 +58,4 @@ Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
 
 - **Location** should be set to `Below site header`
 
-  ![welcome banner settings](images/welcome-banner-location-setting.png)
+  ![welcome banner settings](images/welcome-banner-location-setting.webp)

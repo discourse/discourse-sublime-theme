@@ -21,5 +21,5 @@
       "header_primary": "dddddd"
     }
   },
-  "screenshots": ["screenshots/dark.png", "screenshots/light.png"]
+  "screenshots": ["screenshots/dark.webp", "screenshots/light.webp"]
 }

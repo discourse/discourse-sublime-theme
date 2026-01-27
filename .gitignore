@@ -2,3 +2,4 @@
 node_modules
 HELP
 .DS_Store
+.eslintcache

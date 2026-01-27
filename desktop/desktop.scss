@@ -142,7 +142,7 @@ body #main-outlet {
 .category-boxes {
   display: grid;
   margin-top: 2em;
-  grid-gap: 1.5em;
+  gap: 1.5em;
   grid-template-columns: 32% 32% 32%;
   border-radius: var(--sublime-border-radius);
 

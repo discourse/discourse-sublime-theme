@@ -13,9 +13,15 @@ body.has-sidebar-page {
   }
 
   .sidebar-wrapper {
+    --top-offset: 30px;
+    --bottom-offset: 50px;
     height: auto;
-    max-height: calc(98vh - var(--header-offset, 0));
-    margin: 30px 0 50px;
+    max-height: calc(
+      var(--composer-vh, 1dvh) * 100 - var(--main-outlet-offset, 0px) -
+        var(--top-offset, 0px) - var(--bottom-offset, 0px)
+    );
+
+    margin: var(--top-offset) 0 var(--bottom-offset);
     background-color: var(--secondary);
     border-radius: var(--sublime-border-radius);
     top: calc(var(--header-offset) + 30px);
@@ -110,6 +116,10 @@ body #main-outlet {
   }
 }
 
+body.has-full-page-chat #main-outlet {
+  width: 100% !important; // overriding media queries
+}
+
 // Modals
 .modal-inner-container {
   border-radius: var(--sublime-border-radius);
@@ -180,4 +190,15 @@ body #main-outlet {
   .category-boxes.with-logos.with-subcategories {
     grid-template-columns: 1fr;
   }
+}
+
+.chat-channel {
+  height: calc(
+    var(--composer-vh, 1vh) * 100 - var(--main-outlet-offset, 0px) - 1px -
+      var(--chat-header-offset, 0) - var(--composer-height, 0px) - 130px
+  );
+}
+
+body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
+  gap: 0 var(--d-main-content-gap);
 }
